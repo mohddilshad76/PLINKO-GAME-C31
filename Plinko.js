@@ -7,7 +7,7 @@ class Plinko {
         }
         this.r = 10;
         this.body = Bodies.circle(x, y, this.r, options);
-        this.image = loadImage("sprites/cloud.2.png");
+       // this.image = loadImage("sprites/cloud.2.png");
         
         World.add(world, this.body);
     }
@@ -15,7 +15,7 @@ class Plinko {
 
         var pos = this.body.position;
         var angle = this.body.angle;
-        super.display();
+      //  super.display();
         
 
         push();
